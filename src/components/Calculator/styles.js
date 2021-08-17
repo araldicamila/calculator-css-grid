@@ -18,4 +18,19 @@ export const CalculatorContainer = styled.div`
 export const VisorContainer = styled.div`
   width: 100%;
   text-align: right;
+
+  padding: 2rem 0%;
+
+  small {
+    font-size: 0.85rem;
+    color: #bb9950;
+    font-weight: 600;
+  }
+
+  p {
+    color: #fedcdc;
+    font-size: 2rem;
+
+    margin-top: 0.5rem;
+  }
 `;

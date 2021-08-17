@@ -18,4 +18,8 @@ export const GlobalStyle = createGlobalStyle`
     justify-content: center;
     align-items: center;
   }
+
+  p, small, button {
+    font-family: Poppins, sans-serif;
+  }
 `;

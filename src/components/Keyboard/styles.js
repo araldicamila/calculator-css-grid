@@ -10,9 +10,10 @@ export const KeyboardContainer = styled.div`
 
 export const ButtonContainer = styled.button`
   background-color: #bb9950;
+  color: #fff;
   border: none;
+  font-size: 1rem;
 
-  font-weight: bold;
   height: 40px;
   border-radius: 40px;
 

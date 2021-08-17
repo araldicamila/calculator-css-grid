@@ -5,7 +5,7 @@ export const Calculator = () => {
   return (
     <CalculatorContainer>
       <VisorContainer>
-        <p>10 + 5</p>
+        <small>10 + 5</small>
 
         <p>174</p>
       </VisorContainer>

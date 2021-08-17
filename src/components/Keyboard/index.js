@@ -4,7 +4,7 @@ import { ButtonContainer, KeyboardContainer } from "./styles";
 export const Keyboard = () => (
   <>
     <KeyboardContainer>
-      <ButtonContainer className="clear">=</ButtonContainer>
+      <ButtonContainer className="clear">{"<"}</ButtonContainer>
       <Button value="C" />
       <Button value="()" />
       <Button value="%" />

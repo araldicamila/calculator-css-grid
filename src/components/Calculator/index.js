@@ -1,15 +1,15 @@
 import { Keyboard } from "../Keyboard";
-import { CalculatorContainer, VisorContainer } from "./styles";
+import "./styles.css";
 
 export const Calculator = () => {
   return (
-    <CalculatorContainer>
-      <VisorContainer>
+    <div className="calculator">
+      <div className="visor">
         <small>10 + 5</small>
 
         <p>174</p>
-      </VisorContainer>
+      </div>
       <Keyboard />
-    </CalculatorContainer>
+    </div>
   );
 };

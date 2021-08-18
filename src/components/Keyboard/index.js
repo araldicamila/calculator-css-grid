@@ -1,9 +1,9 @@
 import { Button } from "../Button";
-import { ButtonContainer, KeyboardContainer } from "./styles";
+import "./styles.css";
 
 export const Keyboard = () => (
-  <KeyboardContainer>
-    <ButtonContainer className="clear">{"<"}</ButtonContainer>
+  <div className="keyboard-container">
+    <button className="button clear">{"<"}</button>
     <Button value="C" />
     <Button value="()" />
     <Button value="%" />
@@ -23,6 +23,6 @@ export const Keyboard = () => (
     <Button value={0} />
     <Button value="," />
 
-    <ButtonContainer className="equal">=</ButtonContainer>
-  </KeyboardContainer>
+    <button className="button equal">=</button>
+  </div>
 );

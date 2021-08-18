@@ -1,5 +1,5 @@
-import { ButtonContainer } from "./styles";
+import "./styles.css";
 
-export const Button = ({ value, gridArea }) => {
-  return <ButtonContainer gridArea={gridArea}>{value}</ButtonContainer>;
+export const Button = ({ value }) => {
+  return <button>{value}</button>;
 };

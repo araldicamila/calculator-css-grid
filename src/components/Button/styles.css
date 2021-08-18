@@ -1,0 +1,12 @@
+button {
+  background-color: #fedcdc;
+  color: #bb9950;
+  font-weight: bold;
+
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50px;
+
+  border: none;
+}
